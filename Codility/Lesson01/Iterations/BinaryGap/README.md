@@ -6,13 +6,13 @@ For example, number 9 has binary representation 1001 and contains a binary gap o
 
 Write a function:
 ```python
-def solution(N)
+def solution(N) # Python
 ```
 ```swift
-public func solution(_ N : Int) -> Int
+public func solution(_ N : Int) -> Int // Swift
 ```
 ```java
-class Solution { public int solution(int N); }
+class Solution { public int solution(int N); } // Java
 ```
 
 that, given a positive integer N, returns the length of its longest binary gap. The function should return 0 if N doesn't contain a binary gap.
