@@ -27,7 +27,7 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 -------------------------------------------------
 ## iOS(Swift, Objective-C, RXSwift)
 * Playgrounds(for study theories)
-  - [Thread](https://github.com/pjh6954/CodingTestPracticeDirectory/tree/main/SwiftExamples/SwiftThreadExample/ThreadExample.playground): DispatchQueue를 공부하기 위해서 테스트하는 예제들을 모아둔 Playground(Swift)
+  - [Thread](https://github.com/pjh6954/CodingTestPracticeDirectory/tree/main/SwiftExamples/SwiftThreadExample): DispatchQueue를 공부하기 위해서 테스트하는 예제들을 모아둔 Playground(Swift)
   ###### (last edited 2021.05.07)
 
 
