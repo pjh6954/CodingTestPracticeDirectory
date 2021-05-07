@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+def shared_pods
+  use_frameworks!
+
+  # LOTTIE
+  pod 'Alamofire', '= 5.0.0-rc.2'
+  pod 'ObjectMapper', '= 3.5.3'
+  pod 'AlamofireObjectMapper', '= 6.2.0'#, '~> 5.0'
+
+  pod 'Kingfisher', '~> 5.0'
+
+end
+target 'DownloadApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  shared_pods
+  # Pods for DownloadApp
+
+  target 'DownloadAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'DownloadAppUITests' do
+    # Pods for testing
+  end
+
+end
