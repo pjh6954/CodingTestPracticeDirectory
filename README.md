@@ -33,6 +33,7 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 
 * Custom Applications
   - [DownloadApp](https://github.com/pjh6954/CodingTestPracticeDirectory/tree/main/App/FileDownloader/DownloadApp): 이 앱은 특정 사이트의 데이터를 자동으로 다운로드 하게 하기 위해서 만든 앱입니다.(Swift, Storyboard) - Using Alamofire, Kingfisher
+  - [VideoEditorApp](https://github.com/pjh6954/CodingTestPracticeDirectory/tree/main/App/VideoEditorApp/VideoEditorApp): 이 앱은 영상 편집 기능(잘라내기, Slow motion 등)을 테스트하기 위한 앱입니다.(Swift, Storyboard)
   ###### (last edited 2021.05.07)
 
 
