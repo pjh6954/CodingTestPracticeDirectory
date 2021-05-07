@@ -6,8 +6,7 @@
 
 
 * Custom Applications
-  - DownloadApp: [DownloadApp][downloadappLink]
-    [downloadappLink]: https://github.com/pjh6954/CodingTestPracticeDirectory/tree/main/App/FileDownloader/DownloadApp
+  - DownloadApp: [DownloadApp](https://github.com/pjh6954/CodingTestPracticeDirectory/tree/main/App/FileDownloader/DownloadApp)
     + 이 앱은 특정 사이트의 데이터를 자동으로 다운로드 하게 하기 위해서 만든 앱입니다. 
 
 
