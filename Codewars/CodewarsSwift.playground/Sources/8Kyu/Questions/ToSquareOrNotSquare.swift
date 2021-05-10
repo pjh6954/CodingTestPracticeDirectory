@@ -2,20 +2,21 @@ import Foundation
 
 // To square(root) or not to square(root)
 // https://www.codewars.com/kata/57f6ad55cca6e045d2000627/swift
-public class ToSquareOrNotSquare {
-    var datas : [[Int]] = []
-    public init() {
-        print("init to square or not square!")
+public class ToSquareOrNotSquare : DefaultExecuteClass {
+    public var datas : [[Int]] = [] // if you want, edit this data for test
+    public override init() {
+        super.init()
+        print("Start ToSquareOrNotSquare")
+        // Example datas
         datas = [[4,3,9,7,2,1], [5,9,1,77,44,81,32,36]]
-        executeExamples()
     }
     
-    private func executeExamples() {
+    public override func executeExamples() {
         for element in datas {
-            print("my practice :\n\(element) -> \(mySquareOrSquareRoot(element))")
-            print("best practice :\n\(element) -> \(bestSquareOrSquareRoot(element))\n")
+            print("My practice :\n\(element) -> \(mySquareOrSquareRoot(element))")
+            print("Best practice :\n\(element) -> \(bestSquareOrSquareRoot(element))\n")
         }
-        print("End ToSquareOrNotSquare")
+        print("End ToSquareOrNotSquare\n")
     }
         
     private func mySquareOrSquareRoot(_ input: [Int]) -> [Int] {

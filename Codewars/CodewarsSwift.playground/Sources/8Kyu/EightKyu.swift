@@ -6,7 +6,12 @@ public class EightKyu {
     }
     
     public func toSquareOrNotSquare() {
-        print("To Square or Not Square!")
         let toSquare = ToSquareOrNotSquare()
+        toSquare.executeExamples()
+    }
+    
+    public func dallarsAndCents() {
+        let dallars = DallarsAndCents()
+        dallars.executeExamples()
     }
 }
