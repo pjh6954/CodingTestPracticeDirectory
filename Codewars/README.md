@@ -10,8 +10,8 @@ _Codewars 문제들 풀이_
 언어는 Swift입니다.(2021. 05. 10기준)
 
 ## Contents
-* [Contents](https://github.com/pjh6954/CodingTestPracticeDirectory/tree/master/Codewars#contents)
-* [iOS](https://github.com/pjh6954/CodingTestPracticeDirectory/tree/master/Codewars#iosswift)
+* [Contents](/Codewars#contents)
+* [iOS](/Codewars#iosswift)
 
 -------------------------------------------------
 ## iOS(Swift)
