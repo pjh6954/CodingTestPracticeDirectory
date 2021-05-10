@@ -10,12 +10,13 @@ _Codewars 문제들 풀이_
 언어는 Swift입니다.(2021. 05. 10기준)
 
 ## Contents
-* [Contents](https://github.com/pjh6954/CodingTestPracticeDirectory/blob/main/README.md#contents)
+* [Contents](https://github.com/pjh6954/CodingTestPracticeDirectory/tree/master/Codewars#contents)
+* [iOS](https://github.com/pjh6954/CodingTestPracticeDirectory/tree/master/Codewars#iosswift)
 
 -------------------------------------------------
 ## iOS(Swift)
 * Playgrounds(for study theories)
-  - [Thread](https://github.com/pjh6954/CodingTestPracticeDirectory/tree/main/SwiftExamples/SwiftThreadExample): DispatchQueue를 공부하기 위해서 테스트하는 예제들을 모아둔 Playground(Swift)
+  - [Thread](https://github.com/pjh6954/CodingTestPracticeDirectory/tree/master/SwiftExamples/SwiftThreadExample): DispatchQueue를 공부하기 위해서 테스트하는 예제들을 모아둔 Playground(Swift)
 * 5Kyu
   - []() : 
 
