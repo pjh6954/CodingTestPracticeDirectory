@@ -7,7 +7,7 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 언어는 Swift, Java, Python입니다.(2021. 04. 21기준)
 
 ## Contents
-* [Contents](./../..#contents)
+* [Contents](/#contents)
 * [Codewars](./../..#codewars)
 * [Python](./../..#python)
 * [Java](./../..#java)
