@@ -8,13 +8,13 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 
 ## Contents
 * [Contents](./../..#contents)
-* [Codewars](https://github.com/pjh6954/CodingTestPracticeDirectory#codewars)
-* [Python](https://github.com/pjh6954/CodingTestPracticeDirectorymd#python)
-* [Java](https://github.com/pjh6954/CodingTestPracticeDirectorymd#java)
-* [Node.JS](https://github.com/pjh6954/CodingTestPracticeDirectory/blob/master/README.md#nodejs)
-* [iOS(Swift, Objective-C, RXSwift)](https://github.com/pjh6954/CodingTestPracticeDirectory/blob/master/README.md#iosswift-objective-c-rxswift)
-* [References](https://github.com/pjh6954/CodingTestPracticeDirectory/blob/master/README.md#references)
-* [License](https://github.com/pjh6954/CodingTestPracticeDirectory/blob/master/README.md#license)
+* [Codewars](./../..#codewars)
+* [Python](./../..#python)
+* [Java](./../..#java)
+* [Node.JS](./../..#nodejs)
+* [iOS(Swift, Objective-C, RXSwift)](./../..#iosswift-objective-c-rxswift)
+* [References](./../..#references)
+* [License](./../..#license)
 
 -------------------------------------------------
 ## Codewars
@@ -33,7 +33,7 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 -------------------------------------------------
 ## iOS(Swift, Objective-C, RXSwift)
 * Codewars(Algorithm)
-  - [Playground](https://github.com/pjh6954/CodingTestPracticeDirectory/tree/master/Codewars/CodewarsSwift.playground): Codewars문제들 중 Swift로 푼 것들을 모아둔 Playground
+  - [Playground](./Codewars/CodewarsSwift.playground): Codewars문제들 중 Swift로 푼 것들을 모아둔 Playground//https://github.com/pjh6954/CodingTestPracticeDirectory/tree/master
   ###### (last edited 2021.05.10)
 
 * Playgrounds(for study theories)
