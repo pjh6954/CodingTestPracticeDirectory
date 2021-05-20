@@ -12,7 +12,7 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 * [Python](/../..#python)
 * [Java](/../..#java)
 * [Node.JS](/../..#nodejs)
-* [iOS(Swift, Objective-C, RXSwift)](/../..#iosswift-objective-c-rxswift)
+* [iOS(Swift, Objective-C, RXSwift, SwiftUI)](/../..#iosswift-objective-c-rxswift)
 * [References](/../..#references)
 * [License](/../..#license)
 
@@ -31,7 +31,7 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 ## Node.JS
 
 -------------------------------------------------
-## iOS(Swift, Objective-C, RXSwift)
+## iOS(Swift, Objective-C, RXSwift, SwiftUI)
 * Codewars(Algorithm)
   - [Playground](/Codewars/CodewarsSwift.playground): Codewars문제들 중 Swift로 푼 것들을 모아둔 Playground
   ###### (last edited 2021.05.10)
