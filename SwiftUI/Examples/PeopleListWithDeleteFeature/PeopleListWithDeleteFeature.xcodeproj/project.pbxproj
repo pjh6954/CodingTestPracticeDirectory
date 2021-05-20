@@ -13,6 +13,7 @@
 		72B13E6E2655F2D200EB48E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B13E6D2655F2D200EB48E3 /* Assets.xcassets */; };
 		72B13E712655F2D200EB48E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B13E702655F2D200EB48E3 /* Preview Assets.xcassets */; };
 		72B13E742655F2D200EB48E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B13E722655F2D200EB48E3 /* LaunchScreen.storyboard */; };
+		72B13E7D2655FCCC00EB48E3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B13E7C2655FCCC00EB48E3 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		72B13E702655F2D200EB48E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		72B13E732655F2D200EB48E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72B13E752655F2D200EB48E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B13E7C2655FCCC00EB48E3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		72B13E662655F2D000EB48E3 /* PeopleListWithDeleteFeature */ = {
 			isa = PBXGroup;
 			children = (
+				72B13E7B2655FCBD00EB48E3 /* Models */,
 				72B13E672655F2D000EB48E3 /* AppDelegate.swift */,
 				72B13E692655F2D000EB48E3 /* SceneDelegate.swift */,
 				72B13E6B2655F2D000EB48E3 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				72B13E702655F2D200EB48E3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72B13E7B2655FCBD00EB48E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72B13E7C2655FCCC00EB48E3 /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			files = (
 				72B13E682655F2D000EB48E3 /* AppDelegate.swift in Sources */,
 				72B13E6A2655F2D000EB48E3 /* SceneDelegate.swift in Sources */,
+				72B13E7D2655FCCC00EB48E3 /* Person.swift in Sources */,
 				72B13E6C2655F2D000EB48E3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

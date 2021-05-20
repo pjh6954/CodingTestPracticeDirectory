@@ -6,13 +6,6 @@
 //
 
 import SwiftUI
-struct Person: Identifiable {
-    let id = UUID()
-    let firstName: String
-    let lastName: String
-    let image: UIImage
-    let jobTitle: String
-}
 
 struct PeopleList: View {
     @State var people: [Person] = [
@@ -20,6 +13,8 @@ struct PeopleList: View {
         .init(firstName: "Tim", lastName: "Cook", image: #imageLiteral(resourceName: "pngegg"), jobTitle: "Apple CEO"),
         .init(firstName: "Jony", lastName: "Ive", image: #imageLiteral(resourceName: "pngegg"), jobTitle: "Head of Design")
     ]
+    
+    @State var isPresentingAddModal = false
     var body: some View {
         NavigationView {
             List(people) { person in
@@ -27,7 +22,84 @@ struct PeopleList: View {
                     self.people.removeAll(where: { $0.id == person.id })
                 })
             }.navigationBarTitle("People")
+                .navigationBarItems(trailing: Button(action: {
+                    print("Add New Person")
+                    self.isPresentingAddModal.toggle()
+                }, label: {
+                    Text("Add")
+                        .foregroundColor(.white)
+                        .fontWeight(.bold)
+                        .font(.system(size: 16))
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 8)
+                        .background(Color.green)
+                        .cornerRadius(4)
+                }))
+            .sheet(isPresented: $isPresentingAddModal, content: {
+                AddModal(isPresented: $isPresentingAddModal, didAddPerson: { person in
+                    print("PERSON: \(person.firstName) :: \(person.lastName)")
+                    self.people.append(person)
+                })
+            })
+            
         }
+    }
+}
+
+struct AddModal: View {
+    
+    @Binding var isPresented : Bool
+    
+    @State var firstName = ""
+    @State var lastName = ""
+    
+    var didAddPerson: (Person) -> ()
+    
+    var body: some View {
+        VStack(spacing: 10) {
+            HStack(spacing: 16) {
+                Text("First name")
+                TextField("Enter First Name", text: $firstName)
+                    .padding(.all, 10)
+                    .overlay(RoundedRectangle(cornerRadius: 5).stroke(Color.gray, lineWidth: 1))
+            }
+            
+            HStack(spacing: 16) {
+                Text("Last Name")
+                TextField("Enter last Name", text: $lastName)
+                    .padding(.all, 10)
+                    .overlay(RoundedRectangle(cornerRadius: 5).stroke(Color.gray, lineWidth: 1))
+            }
+            
+            Button(action: {
+                self.isPresented = false
+                print("name : \(self.firstName)")
+                self.didAddPerson(.init(firstName: self.firstName, lastName: self.lastName, image: UIImage(), jobTitle: "NEW JOB"))
+            }, label: {
+                Spacer()
+                Text("ADD")
+                Spacer()
+            })
+                .foregroundColor(.white)
+                .padding(.vertical, 8)
+                .background(Color.green)
+                .cornerRadius(4)
+            
+            Button(action: {
+                self.isPresented = false
+            }, label: {
+                Spacer()
+                Text("Cancel")
+                Spacer()
+            })
+                .foregroundColor(.white)
+                .padding(.vertical, 8)
+                .background(Color.red)
+                .cornerRadius(4)
+            
+            Spacer()
+        }
+        .padding(.all, 16)
     }
 }
 
@@ -56,8 +128,8 @@ struct PersonRow: View {
             Spacer()
             
             Button(action: {
-                print("Deleting: \(person.firstName)")
-                didDelete(person)
+                print("Deleting: \(self.person.firstName)")
+                self.didDelete(self.person)
             }, label: {
                 Text("Delete")
                     .foregroundColor(.white)
