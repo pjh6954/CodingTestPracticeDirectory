@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ARRoboSkeleton" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lrx-se-27J" userLabel="ARView" customClass="ARView" customModule="RealityKit">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AEe-e8-PCV" customClass="OverlayView" customModule="ARRoboSkeleton" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </view>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kLI-Vk-uk0">
+                                <rect key="frame" x="182.5" y="771" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchedRobotSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="sRF-zp-Cxf"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="po4-Bd-AAw"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="AEe-e8-PCV" firstAttribute="leading" secondItem="po4-Bd-AAw" secondAttribute="leading" id="AaR-V9-vnw"/>
+                            <constraint firstItem="po4-Bd-AAw" firstAttribute="trailing" secondItem="AEe-e8-PCV" secondAttribute="trailing" id="MVb-Z9-leL"/>
+                            <constraint firstAttribute="bottom" secondItem="AEe-e8-PCV" secondAttribute="bottom" id="bHr-e7-ZnC"/>
+                            <constraint firstItem="kLI-Vk-uk0" firstAttribute="centerX" secondItem="po4-Bd-AAw" secondAttribute="centerX" id="gPA-Jm-zvU"/>
+                            <constraint firstItem="AEe-e8-PCV" firstAttribute="top" secondItem="lrx-se-27J" secondAttribute="top" id="i4K-sv-fJ7"/>
+                            <constraint firstItem="po4-Bd-AAw" firstAttribute="bottom" secondItem="kLI-Vk-uk0" secondAttribute="bottom" constant="60" id="ocQ-gw-gUB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="arView" destination="lrx-se-27J" id="hTv-IC-Us2"/>
+                        <outlet property="overlayView" destination="AEe-e8-PCV" id="9yJ-Lv-XcL"/>
+                        <outlet property="robotSwitch" destination="kLI-Vk-uk0" id="ueb-ne-vex"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="104"/>
+        </scene>
+    </scenes>
+</document>
