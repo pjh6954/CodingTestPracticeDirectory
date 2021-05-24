@@ -25,6 +25,7 @@ class ViewController: UIViewController {
             guard let tabBarController = UIStoryboard(name: "TabBarViewController", bundle: nil).instantiateViewController(withIdentifier: "TabBarController") as? TabBarController else {
                 return
             }
+            // tabBarController.modalPresentationStyle = .fullScreen // full screen으로 띄우고자 할 때
             strongSelf.present(tabBarController, animated: true) {
                 
             }
