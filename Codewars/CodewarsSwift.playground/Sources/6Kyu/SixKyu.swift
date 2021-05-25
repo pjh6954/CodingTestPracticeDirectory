@@ -9,4 +9,9 @@ public class SixKyu {
         let q = AreTheyTheSame()
         q.executeExamples()
     }
+    
+    public func piApproximation() {
+        let q = PIApproximation()
+        q.executeExamples()
+    }
 }

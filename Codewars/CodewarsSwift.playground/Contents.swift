@@ -11,3 +11,4 @@ import UIKit
 
 var sixKyu = SixKyu()
 sixKyu.areTheyTheSame()
+sixKyu.piApproximation()
