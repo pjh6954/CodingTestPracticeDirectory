@@ -1,12 +1,13 @@
 import UIKit
 
-var eightKyu = EightKyu()
-eightKyu.toSquareOrNotSquare()
+//var eightKyu = EightKyu()
+//eightKyu.toSquareOrNotSquare()
+//eightKyu.dallarsAndCents()
 
-eightKyu.dallarsAndCents()
 
+//var sevenKyu = SevenKyu()
+//sevenKyu.sumOfOddNumbers()
+//sevenKyu.toLeetSpeak()
 
-var sevenKyu = SevenKyu()
-sevenKyu.sumOfOddNumbers()
-
-sevenKyu.toLeetSpeak()
+var sixKyu = SixKyu()
+sixKyu.areTheyTheSame()
