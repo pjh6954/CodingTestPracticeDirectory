@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     private var currentSelectIndex : IndexPath?
+    private var currentOrangeSelectIndex : IndexPath?
     
     private let cellNibName = String(describing: TableViewCell.self) // "TableViewCell"
     override func viewDidLoad() {
@@ -38,7 +39,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         cell.delegate = self
         if let index = self.currentSelectIndex, index == indexPath {
             cell.backgroundColor = .green
-        }else{
+        } else if let indexOrange = self.currentOrangeSelectIndex, indexOrange == indexPath {
+            cell.backgroundColor = .orange
+        } else {
             cell.backgroundColor = .white
         }
         return cell
@@ -48,12 +51,29 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 }
 
 extension ViewController: TableViewCellDelegate {
-    func selectedWithIndex(_ index: IndexPath) {
+    func selectedWithIndex(_ index: IndexPath, type: selectType) {
         var reloadIndex = [index]
+        
         if let indexPath = self.currentSelectIndex {
             reloadIndex.append(indexPath)
         }
-        self.currentSelectIndex = index
+        if let indexPath = self.currentOrangeSelectIndex {
+            reloadIndex.append(indexPath)
+        }
+        // 아래 코드에서 if문 안에 if문이 있는 이유는
+        // 1번 셀에서 green 선택 후 orange를 선택하고, 그 후 2번 셀을 orange를 선택하는 경우 1번 셀이 green이 표시가 되는 경우를 없에기 위함.
+        if type == .green {
+            self.currentSelectIndex = index
+            if self.currentOrangeSelectIndex == index {
+                self.currentOrangeSelectIndex = nil
+            }
+        }
+        else if type == .orange {
+            self.currentOrangeSelectIndex = index
+            if self.currentSelectIndex == index {
+                self.currentSelectIndex = nil
+            }
+        }
         self.tableView.reloadRows(at: reloadIndex, with: .none)
     }
 }

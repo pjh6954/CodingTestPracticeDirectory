@@ -7,13 +7,19 @@
 
 import UIKit
 
+public enum selectType {
+    case green
+    case orange
+}
+
 protocol TableViewCellDelegate: AnyObject {
-    func selectedWithIndex(_ index: IndexPath)
+    func selectedWithIndex(_ index: IndexPath, type: selectType)
 }
 
 class TableViewCell: UITableViewCell {
 
     @IBOutlet weak var btnSelect: UIButton!
+    @IBOutlet weak var btnOtherColor: UIButton!
     
     public weak var delegate : TableViewCellDelegate?
     
@@ -37,7 +43,13 @@ class TableViewCell: UITableViewCell {
         guard let indexPath = self.indexPath else {
             return
         }
-        self.delegate?.selectedWithIndex(indexPath)
+        self.delegate?.selectedWithIndex(indexPath, type: .green)
+    }
+    @IBAction func btnActionOtherColor(_ sender: UIButton) {
+        guard let indexPath = self.indexPath else {
+            return
+        }
+        self.delegate?.selectedWithIndex(indexPath, type: .orange)
     }
     
 }
