@@ -16,6 +16,8 @@
 		72B64FA6265DC6DB00A3AD48 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B64FA4265DC6DB00A3AD48 /* TableViewCell.swift */; };
 		72B64FA7265DC6DB00A3AD48 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72B64FA5265DC6DB00A3AD48 /* TableViewCell.xib */; };
 		72B64FA9265DC80900A3AD48 /* Extensions+TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B64FA8265DC80900A3AD48 /* Extensions+TableViewController.swift */; };
+		72B64FDF265E051800A3AD48 /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B64FDE265E051800A3AD48 /* ModelViewController.swift */; };
+		72B64FE1265E052100A3AD48 /* TableDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B64FE0265E052100A3AD48 /* TableDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		72B64FA4265DC6DB00A3AD48 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		72B64FA5265DC6DB00A3AD48 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		72B64FA8265DC80900A3AD48 /* Extensions+TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+TableViewController.swift"; sourceTree = "<group>"; };
+		72B64FDE265E051800A3AD48 /* ModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
+		72B64FE0265E052100A3AD48 /* TableDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				72B64F92265DC6A900A3AD48 /* SceneDelegate.swift */,
 				72B64F96265DC6A900A3AD48 /* Main.storyboard */,
 				72B64F94265DC6A900A3AD48 /* ViewController.swift */,
+				72B64FDE265E051800A3AD48 /* ModelViewController.swift */,
+				72B64FE0265E052100A3AD48 /* TableDataModel.swift */,
 				72B64FA5265DC6DB00A3AD48 /* TableViewCell.xib */,
 				72B64FA4265DC6DB00A3AD48 /* TableViewCell.swift */,
 				72B64FA8265DC80900A3AD48 /* Extensions+TableViewController.swift */,
@@ -149,8 +155,10 @@
 			files = (
 				72B64F95265DC6A900A3AD48 /* ViewController.swift in Sources */,
 				72B64FA6265DC6DB00A3AD48 /* TableViewCell.swift in Sources */,
+				72B64FDF265E051800A3AD48 /* ModelViewController.swift in Sources */,
 				72B64FA9265DC80900A3AD48 /* Extensions+TableViewController.swift in Sources */,
 				72B64F91265DC6A900A3AD48 /* AppDelegate.swift in Sources */,
+				72B64FE1265E052100A3AD48 /* TableDataModel.swift in Sources */,
 				72B64F93265DC6A900A3AD48 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

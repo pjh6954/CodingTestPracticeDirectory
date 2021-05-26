@@ -39,6 +39,10 @@ class TableViewCell: UITableViewCell {
         
     }
     
+    public func setData(_ model : TableCellDataModel) {
+        self.backgroundColor = model.backgroundColor
+    }
+    
     @IBAction func btnAction(_ sender: UIButton) {
         guard let indexPath = self.indexPath else {
             return
