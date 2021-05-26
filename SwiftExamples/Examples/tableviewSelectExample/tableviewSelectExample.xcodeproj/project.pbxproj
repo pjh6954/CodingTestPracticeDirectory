@@ -66,20 +66,60 @@
 		72B64F8F265DC6A900A3AD48 /* tableviewSelectExample */ = {
 			isa = PBXGroup;
 			children = (
+				72B64FE2265E0BC700A3AD48 /* View */,
+				72B64FE5265E0BEB00A3AD48 /* Controllers */,
+				72B64FE6265E0BF800A3AD48 /* Models */,
+				72B64FE4265E0BE000A3AD48 /* Extension */,
+				72B64FE3265E0BD600A3AD48 /* Cell */,
 				72B64F90265DC6A900A3AD48 /* AppDelegate.swift */,
 				72B64F92265DC6A900A3AD48 /* SceneDelegate.swift */,
-				72B64F96265DC6A900A3AD48 /* Main.storyboard */,
-				72B64F94265DC6A900A3AD48 /* ViewController.swift */,
-				72B64FDE265E051800A3AD48 /* ModelViewController.swift */,
-				72B64FE0265E052100A3AD48 /* TableDataModel.swift */,
-				72B64FA5265DC6DB00A3AD48 /* TableViewCell.xib */,
-				72B64FA4265DC6DB00A3AD48 /* TableViewCell.swift */,
-				72B64FA8265DC80900A3AD48 /* Extensions+TableViewController.swift */,
 				72B64F99265DC6A900A3AD48 /* Assets.xcassets */,
 				72B64F9B265DC6A900A3AD48 /* LaunchScreen.storyboard */,
 				72B64F9E265DC6A900A3AD48 /* Info.plist */,
 			);
 			path = tableviewSelectExample;
+			sourceTree = "<group>";
+		};
+		72B64FE2265E0BC700A3AD48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72B64F96265DC6A900A3AD48 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72B64FE3265E0BD600A3AD48 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				72B64FA5265DC6DB00A3AD48 /* TableViewCell.xib */,
+				72B64FA4265DC6DB00A3AD48 /* TableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		72B64FE4265E0BE000A3AD48 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				72B64FA8265DC80900A3AD48 /* Extensions+TableViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		72B64FE5265E0BEB00A3AD48 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72B64F94265DC6A900A3AD48 /* ViewController.swift */,
+				72B64FDE265E051800A3AD48 /* ModelViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		72B64FE6265E0BF800A3AD48 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72B64FE0265E052100A3AD48 /* TableDataModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
