@@ -1,4 +1,4 @@
-import UIKit
+//import UIKit
 
 //var eightKyu = EightKyu()
 //eightKyu.toSquareOrNotSquare()
@@ -12,6 +12,6 @@ import UIKit
 //var sixKyu = SixKyu()
 //sixKyu.areTheyTheSame()
 //sixKyu.piApproximation()
-
+print("TEST")
 let test = FractionalExpression()
 test.executeExamples()
