@@ -9,6 +9,9 @@ import UIKit
 //sevenKyu.sumOfOddNumbers()
 //sevenKyu.toLeetSpeak()
 
-var sixKyu = SixKyu()
-sixKyu.areTheyTheSame()
-sixKyu.piApproximation()
+//var sixKyu = SixKyu()
+//sixKyu.areTheyTheSame()
+//sixKyu.piApproximation()
+
+let test = FractionalExpression()
+test.executeExamples()

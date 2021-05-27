@@ -47,6 +47,8 @@
             <connections>
                 <outlet property="btnOtherColor" destination="NwQ-Yg-Yja" id="yQC-H4-Osl"/>
                 <outlet property="btnSelect" destination="uCJ-FV-bLr" id="RjS-QC-fP4"/>
+                <outletCollection property="buttons" destination="NwQ-Yg-Yja" collectionClass="NSMutableArray" id="Jf2-mM-TMU"/>
+                <outletCollection property="buttons" destination="uCJ-FV-bLr" collectionClass="NSMutableArray" id="UDP-tg-swl"/>
             </connections>
             <point key="canvasLocation" x="91" y="109"/>
         </tableViewCell>
