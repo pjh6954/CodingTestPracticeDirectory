@@ -30,6 +30,17 @@ class SliderViewController : UIViewController{
         
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
+        
+        if let layout = self.collectionView.collectionViewLayout as? SliderLayout {
+            if layout.type == .rightVisible {
+                self.collectionView.transform = .init(scaleX: -1, y: 1)
+            }
+            
+            // TODO: Infinite mode
+            //if layout.scrollMode == .activate {
+            //    dataSource.activateInfinite(displayCount: layout.visibleItemsCount)
+            //}
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {

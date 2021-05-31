@@ -7,13 +7,27 @@
 
 import UIKit
 
-@objc protocol SliderLayoutDelegate : class {
+public enum SliderScrollType {
+    case defaultCase // left visible
+    case rightVisible
+}
+
+// TODO: Infinite Mode
+public enum SliderInfiniteMode {
+    case activate
+    case deactivate
+}
+
+@objc protocol SliderLayoutDelegate : AnyObject {
+    //Using 'class' keyword for protocol inheritance is deprecated; use 'AnyObject' instead
+    //Replace 'class' with 'AnyObject'
     func transition(between currentIndex : Int, and nextIndex: Int, progress : CGFloat)
 }
 
 class SliderLayout: UICollectionViewLayout {
     @IBOutlet private weak var delegate : SliderLayoutDelegate!
-    
+    public var type : SliderScrollType = .rightVisible//.defaultCase//.rightVisible
+    public var scrollMode : SliderInfiniteMode = .activate//.activate//.deactivate
     public var itemSize : CGSize = .zero {
         didSet { invalidateLayout() }
     }

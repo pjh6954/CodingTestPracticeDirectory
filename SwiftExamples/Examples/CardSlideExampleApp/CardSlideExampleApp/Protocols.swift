@@ -26,6 +26,9 @@ public protocol CardSliderItem {
 }
 
 public protocol CardSliderDataSource: AnyObject {
+    // TODO: Infinite mode
+    func activateInfinite(displayCount: Int)
+    
     /// CardSliderItem for the card at given index, counting from the top.
     func item(for index: Int) -> CardSliderItem
     

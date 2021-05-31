@@ -110,5 +110,7 @@ class SliderCell: UICollectionViewCell, ParallaxCardCell {
     override func prepareForReuse() {
         super.prepareForReuse()
         setShadeOpacity(progress: 0)
+        //setShadeOpacity(progress: 1)
     }
+    
 }

@@ -28,6 +28,10 @@ extension SliderViewController : UICollectionViewDelegate, UICollectionViewDataS
         let item = dataSource.item(for: dataSource.numberOfItems() - indexPath.item - 1)
         cell.imageView.image = item.image
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("select indexp : \(indexPath)")
+    }
 }
 
 
