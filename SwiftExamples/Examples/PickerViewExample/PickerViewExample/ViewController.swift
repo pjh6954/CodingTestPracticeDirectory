@@ -67,8 +67,33 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.settingData()
         self.config()
         self.createPickerView()
+    }
+    
+    private func settingData() {
+        guard let getFile = Bundle.main.url(forResource: "data", withExtension: "json") else {
+            print("Check?")
+            return
+        }
+        // or using swiftJson library.
+        do {
+            print("Check2?")
+            let data = try Data(contentsOf: getFile)
+            print("Check4? : \(data)")
+            let json = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
+            print("Check5?")
+            if let jsonResult = json as? Dictionary<String, AnyObject> {
+                let resultCd = jsonResult["resultCd"] as? String
+                print("jsonresult : \(jsonResult) :: \(resultCd)")
+                // Make model
+            }else{
+                print("Check3")
+            }
+        } catch {
+            print("Error : \(error)")
+        }
     }
     
     private func config() {

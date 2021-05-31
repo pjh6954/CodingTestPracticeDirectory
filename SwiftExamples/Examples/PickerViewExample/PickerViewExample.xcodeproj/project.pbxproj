@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		72B442F8265FE36300050E45 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B442F7265FE36300050E45 /* Models.swift */; };
+		72B442FA266462F000050E45 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 72B442F9266462F000050E45 /* data.json */; };
 		72B7AD52265F8E9E00B1BE1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B7AD51265F8E9E00B1BE1A /* AppDelegate.swift */; };
 		72B7AD54265F8E9E00B1BE1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B7AD53265F8E9E00B1BE1A /* SceneDelegate.swift */; };
 		72B7AD56265F8E9E00B1BE1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B7AD55265F8E9E00B1BE1A /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		72B442F7265FE36300050E45 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		72B442F9266462F000050E45 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		72B7AD4E265F8E9E00B1BE1A /* PickerViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B7AD51265F8E9E00B1BE1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72B7AD53265F8E9E00B1BE1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				72B7AD5A265F8EA000B1BE1A /* Assets.xcassets */,
 				72B7AD5C265F8EA000B1BE1A /* LaunchScreen.storyboard */,
 				72B7AD5F265F8EA000B1BE1A /* Info.plist */,
+				72B442F9266462F000050E45 /* data.json */,
 			);
 			path = PickerViewExample;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 				72B7AD5E265F8EA000B1BE1A /* LaunchScreen.storyboard in Resources */,
 				72B7AD5B265F8EA000B1BE1A /* Assets.xcassets in Resources */,
 				72B7AD59265F8E9E00B1BE1A /* Main.storyboard in Resources */,
+				72B442FA266462F000050E45 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
