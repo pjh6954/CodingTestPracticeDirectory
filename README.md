@@ -9,7 +9,7 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 ## Contents
 * [Contents](/../..#contents)
 * [Codewars](/../..#codewars)
-* [C#](/../..)
+* [C#](/../..#c)
 * [Python](/../..#python)
 * [Java](/../..#java)
 * [Node.JS](/../..#nodejs)
