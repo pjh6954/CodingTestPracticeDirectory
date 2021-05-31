@@ -40,6 +40,13 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
   - [Thread](/SwiftExamples/SwiftThreadExample): DispatchQueue를 공부하기 위해서 테스트하는 예제들을 모아둔 Playground(Swift)
   ###### (last edited 2021.05.07)
 
+* Example Applications(for study example UI or Funcions)
+  - [Slider(CollectionView)](/SwiftExamples/Examples/CardSlideExampleApp): Horizontal collectionview를 이용한 custom view
+  - [PickerViewExample](/SwiftExamples/Examples/PickerViewExample): PickerView와 관련된 예제 - [관련 이슈](https://github.com/pjh6954/CodingTestPracticeDirectory/issues/7#issuecomment-849411599)
+  - [TabBar Test App](/SwiftExamples/Examples/TabBarTestApp): Tabbar 사용하는 것과 관련된 예제 - [관련 링크](https://iphonedev.co.kr/iOSDevQnA/178653#0)
+  - [Table view select example app](/SwiftExamples/Examples/tableviewSelectExample): tableview와 관련된 질문 해결용 예제 app [관련 링크](https://iphonedev.co.kr/iOSDevQnA/178967#0)
+  ###### (last edited 2021.05.31)
+
 * Custom Applications
   - [DownloadApp](/App/FileDownloader/DownloadApp): 이 앱은 특정 사이트의 데이터를 자동으로 다운로드 하게 하기 위해서 만든 앱입니다.(Swift, Storyboard) - Using Alamofire, Kingfisher
   - [VideoEditorApp](/App/VideoEditorApp/VideoEditorApp): 이 앱은 영상 편집 기능(잘라내기, Slow motion 등)을 테스트하기 위한 앱입니다.(Swift, Storyboard)
