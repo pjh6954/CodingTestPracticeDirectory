@@ -47,3 +47,9 @@ class SliderViewController : UIViewController{
 extension SliderViewController : UIScrollViewDelegate {
     
 }
+
+extension SliderViewController : SliderLayoutDelegate {
+    func transition(between currentIndex: Int, and nextIndex: Int, progress: CGFloat) {
+        
+    }
+}

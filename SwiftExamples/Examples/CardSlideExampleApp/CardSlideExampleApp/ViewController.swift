@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        print("View did appear")
         let cardSlider = SliderViewController.with(dataSource: self)
         cardSlider.modalPresentationStyle = .fullScreen
         present(cardSlider, animated: true, completion: nil)

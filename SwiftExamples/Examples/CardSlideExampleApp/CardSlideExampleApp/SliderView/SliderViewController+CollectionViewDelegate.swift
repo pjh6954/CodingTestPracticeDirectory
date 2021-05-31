@@ -29,3 +29,5 @@ extension SliderViewController : UICollectionViewDelegate, UICollectionViewDataS
         cell.imageView.image = item.image
     }
 }
+
+

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72B442FF266491D600050E45 /* SliderLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B442FE266491D600050E45 /* SliderLayout.swift */; };
 		72B64FB7265DCE5C00A3AD48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B64FB6265DCE5C00A3AD48 /* AppDelegate.swift */; };
 		72B64FB9265DCE5C00A3AD48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B64FB8265DCE5C00A3AD48 /* SceneDelegate.swift */; };
 		72B64FBB265DCE5C00A3AD48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B64FBA265DCE5C00A3AD48 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72B442FE266491D600050E45 /* SliderLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderLayout.swift; sourceTree = "<group>"; };
 		72B64FB3265DCE5C00A3AD48 /* CardSlideExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardSlideExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B64FB6265DCE5C00A3AD48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72B64FB8265DCE5C00A3AD48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				72B64FD3265DD57D00A3AD48 /* SliderViewController.swift */,
 				72B64FD5265DD70600A3AD48 /* SliderViewController+CollectionViewDelegate.swift */,
 				72B64FD7265DE21A00A3AD48 /* SliderCell.swift */,
+				72B442FE266491D600050E45 /* SliderLayout.swift */,
 			);
 			path = SliderView;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				72B64FD4265DD57D00A3AD48 /* SliderViewController.swift in Sources */,
 				72B64FB7265DCE5C00A3AD48 /* AppDelegate.swift in Sources */,
 				72B64FD6265DD70600A3AD48 /* SliderViewController+CollectionViewDelegate.swift in Sources */,
+				72B442FF266491D600050E45 /* SliderLayout.swift in Sources */,
 				72B64FD8265DE21A00A3AD48 /* SliderCell.swift in Sources */,
 				72B64FB9265DCE5C00A3AD48 /* SceneDelegate.swift in Sources */,
 				72B64FCF265DD1A600A3AD48 /* Protocols.swift in Sources */,
