@@ -3,6 +3,7 @@ CodingTestPracticeDirectory
 _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 ------------------------------------------
 
+
 코딩 테스트 연습을 위해서 만든 프로젝트 또는 플레이 그라운드, 코드들을 모아둔 프로젝트입니다.
 언어는 Swift, Java, Python입니다.(2021. 04. 21기준)
 
@@ -75,6 +76,16 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 * [SemVer](http://semver.org/): 버전 관리 관련 링크
 * [Github 프로젝트 관리하기](https://cheese10yun.github.io/github-project-part3/): Github로 프로젝트 관리하는 방법
 ###### (last edited 2021.06.01)
+
+
+
+### Version Number
+`V1.0.0`
+Version Number의 변경방식 
+- 버전을 `주.부.수` 숫자로 하고, 각 위치를 `주`, `부`, `수`라 부른다.
+- `Root Directory`에서 `File` 또는 `Directory`가 생성 또는 삭제 시 `주 버전`을 올린다.
+- `부 버전`의 경우 Root Directory의 파일에는 변경이 없으나, `하위 Directory들`에 파일이 추가 또는 삭제 시 올린다.
+- `수 버전`의 경우 모든 경로의 `README.md` 또는 `설명 문서`가 변경사항이 있는 경우 올린다. 각 프로젝트(e.g. .playground, .xcodeproj etc)의 파일이 변경되는 경우는 `무시한다`.
 
 ## License
 
