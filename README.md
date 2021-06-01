@@ -61,7 +61,8 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 -------------------------------------------------
 ## References
 * [How To Write by Markdown](https://gist.github.com/ihoneymon/652be052a0727ad59601): 마크다운 작성에 도움을 많이 받은 링크 
-###### (last edited 2021.05.07)
+* [SemVer](http://semver.org/): 버전 관리 관련 링크
+###### (last edited 2021.06.01)
 
 ## License
 
