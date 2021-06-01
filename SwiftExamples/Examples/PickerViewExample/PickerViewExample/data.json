@@ -1,0 +1,34 @@
+{
+    "resultCd" : "SUCCESS",
+    "dataList" : [
+        {
+            "srvcAreaCd": "A01",
+            "srvcAreaNm": "영종",
+            "lineRoute": [
+                {
+                    "routeId" : "17",
+                    "routeNm": "진짜 노선",
+                    "routeTypeCd": "A"
+                }
+            ]
+        },
+        {
+            "srvcAreaCd": "A04",
+            "srvcAreaNm": "인(테스트)",
+            "lineRoute": [
+                {
+                    "routeId" : "18",
+                    "routeNm": "디스플레이",
+                    "routeTypeCd": "A"
+                },
+                {
+                    "routeId" : "10",
+                    "routeNm": " 라인모드",
+                    "routeTypeCd": "A"
+                }
+            ]
+        }
+    ]
+}
+
+

@@ -19,7 +19,10 @@ _Codewars 문제들 풀이_
   - []() : 
 
 * 6Kyu
-  - []() :
+  - [Braking Well]() : [Origin](https://www.codewars.com/kata/565c0fa6e3a7d39dee000125) [참고링크 - Daily Challenge #267 - Braking Speed](https://dev.to/thepracticaldev/daily-challenge-267-braking-speed-2hf0)[참고2](https://www.youtube.com/watch?v=_zVL0g9HHaU&ab_channel=SyntacticSugarDaddy)
+    주석 달면서 풀이 다시 작성하기
+  - [Are they the "same"?]() : [Origin](https://www.codewars.com/kata/550498447451fbbd7600041c/train/swift)
+    푸는 중
  
 * 7kyu
   - [Sum of Odd Numbers](/Codewars/CodewarsSwift.playground/Sources/7Kyu/Questions/SumOfOddNumbers.swift) : [Origin](https://www.codewars.com/kata/55fd2d567d94ac3bc9000064) 연속된 홀수 값들을 피라미드로 만들고, 그 피라미드의 층(row)에 대한 값을 구해서 반환하는 문제입니다.(added in 2021.05.10)
