@@ -7,6 +7,10 @@ assignees: ''
 
 ---
 
+# 🐛 Bug report
+
+오타 또는 잘못된 링크를 수정 🛠️.
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
@@ -36,3 +40,42 @@ If applicable, add screenshots to help explain your problem.
 
 **Additional context**
 Add any other context about the problem here.
+
+
+
+
+
+
+
+
+
+
+🎁 New Resources
+새로운 자료 추가 🚀
+
+📝 Suggestions
+해당 Repository에 건의하고 싶은 사항 👍
+
+❓Questions
+해당 Repository에 대한 질문 ❔
+
+🌈 Enhancement
+해당 Repository의 개선 사항 🎉
+
+💬 Comments
+기타 다른 comment 😃
+
+
+### 🐛 Bug report
+오타 또는 잘못된 링크를 수정 🛠️.
+위 내용에 대한 issue template을 생성하려면 다음과 같이 ISSUE_TEMPLATE directory에 md 파일을 작성한다.
+
+in .github/ISSUE_TEMPLATE/Bug_report.md
+
+---
+name: 🐛 Bug report
+about: 오타 또는 잘못된 링크를 수정 🛠️.
+
+---
+
+## Description
