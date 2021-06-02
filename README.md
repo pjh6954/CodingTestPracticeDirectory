@@ -5,11 +5,13 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 
 
 코딩 테스트 연습을 위해서 만든 프로젝트 또는 플레이 그라운드, 코드들을 모아둔 프로젝트입니다.
-언어는 Swift, Java, Python입니다.(2021. 04. 21기준)
+언어는 Swift, Java, Python, C#입니다.(2021. 06. 02기준)
 
 ## Contents
 * [Contents](/../..#contents)
+<!--
 * [Codewars](/../..#codewars)
+-->
 * [C#](/../..#c)
 * [Python](/../..#python)
 * [Java](/../..#java)
@@ -19,16 +21,20 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 * [Version](/../..#version-number)
 * [License](/../..#license)
 
+<!--
 -------------------------------------------------
 ## Codewars
 
   ###### (last edited 2021.05.10)
+-->
 
 -------------------------------------------------
 ## C#
 
 -------------------------------------------------
 ## Python
+* [Python 통합 폴더](/Python): 이론, Codewars, Programmers등 알고리즘을 포함한 Directory
+  ###### (last edited 2021.06.02)
 
 -------------------------------------------------
 ## Java
@@ -39,8 +45,8 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 -------------------------------------------------
 ## iOS(Swift, Objective-C, RXSwift, SwiftUI)
 * Codewars(Algorithm)
-  - [Playground](/Codewars/CodewarsSwift.playground): Codewars문제들 중 Swift로 푼 것들을 모아둔 Playground
-  ###### (last edited 2021.05.10)
+  - [Directory](/SwiftExamples/Codewars): Codewars문제들 중 Swift로 푼 것들을 모아둔 Playground가 있는 Directory
+  ###### (last edited 2021.06.02)
 
 * Playgrounds(for study theories)
   - [Thread](/SwiftExamples/SwiftThreadExample): DispatchQueue를 공부하기 위해서 테스트하는 예제들을 모아둔 Playground(Swift)
@@ -81,7 +87,7 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 
 
 ### Version Number
-`1.0.0`
+[`2.0.0`](/VersionUpdateHistory)
 
 Version Number의 변경방식 
 - 버전을 `주.부.수` 숫자로 하고, 각 위치를 `주`, `부`, `수`라 부른다.
@@ -95,6 +101,7 @@ Version Number의 변경방식
     Version: `1.0.0`
     Root Directory에 새 폴더 추가하여, `2.0.0`으로 변경 요구.
 ```
+
 
 ## License
 
