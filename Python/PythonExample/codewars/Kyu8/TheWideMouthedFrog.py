@@ -36,7 +36,8 @@ class TheWideMouthedFrog:
     def __mouth_size_sol(animal):
         return 'small' if re.match(animal, 'alligator', re.IGNORECASE) else 'wide'
 
-    def execute(self):
+    def execute(self) -> bool:
         print(f"result : {self.__mouth_size('TEST! animal')}")
         self.__basic_test_cases()
         self.__random_test_cases()
+        return True
