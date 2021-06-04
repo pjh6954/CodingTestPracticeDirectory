@@ -63,7 +63,7 @@ def kyu_proceed(kyuNum: int):
     except PermissionError:
         print("ERROR!")
         pass
-"""
+'''
 def eight_kyu_proceed():
     # inputdata = input("What kind of function you want test?: ")
     try:
@@ -86,7 +86,7 @@ def eight_kyu_proceed():
     except PermissionError:
         print("ERROR!")
         pass
-"""
+'''
 
 def get_kyu_type():
     """
@@ -97,13 +97,13 @@ def get_kyu_type():
     if inputData.isnumeric():
         inputData = int(inputData)
         kyu_proceed(inputData)
-        """
+        '''
         if inputData == 8:
             eight_kyu_proceed()
         else:
             print("There is no that kind of kyu")
             get_kyu_type()
-        """
+        '''
 
     elif inputData.lower() == "exit":
         print("Thanks to use this test program.")
