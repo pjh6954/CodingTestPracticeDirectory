@@ -80,10 +80,10 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 
 -------------------------------------------------
 ## Wiki
-* [Home](/wiki)
-* [iOS](/wiki/iOS)
-* [Swift](/wiki/SWIFT)
-* [Python](/wiki/Python)
+* [Home](../../wiki)
+* [iOS](../../wiki/iOS)
+* [Swift](../../wiki/SWIFT)
+* [Python](../../wiki/Python)
 ###### (last edited 2021.06.08)
 
 -------------------------------------------------
