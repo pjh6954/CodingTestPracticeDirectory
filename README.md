@@ -17,6 +17,7 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 * [Java](/../..#java)
 * [Node.JS](/../..#nodejs)
 * [iOS(Swift, Objective-C, RXSwift, SwiftUI)](/../..#iosswift-objective-c-rxswift-swiftui)
+* [Wiki](/../..#wiki)
 * [References](/../..#references)
 * [Version](/../..#version-number)
 * [License](/../..#license)
@@ -78,6 +79,14 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 
 
 -------------------------------------------------
+## Wiki
+* [Home](/wiki)
+* [iOS](/wiki/iOS)
+* [Swift](/wiki/SWIFT)
+* [Python](/wiki/Python)
+###### (last edited 2021.06.08)
+
+-------------------------------------------------
 ## References
 * [How To Write by Markdown](https://gist.github.com/ihoneymon/652be052a0727ad59601): 마크다운 작성에 도움을 많이 받은 링크 
 * [SemVer](http://semver.org/): 버전 관리 관련 링크
@@ -87,7 +96,7 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 
 
 ### Version Number
-[`2.0.0`](/VersionUpdateHistory)
+[`2.0.1`](/VersionUpdateHistory)
 
 Version Number의 변경방식 
 - 버전을 `주.부.수` 숫자로 하고, 각 위치를 `주`, `부`, `수`라 부른다.
