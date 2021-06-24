@@ -1,0 +1,81 @@
+PODS:
+  - CWUtils (1.1.1):
+    - Kingfisher
+    - Panda
+    - Reusable
+    - RxCocoa
+    - RxOptional
+    - RxSwift
+    - RxSwiftExt
+    - RxViewController
+    - SnapKit
+    - Then
+  - Kingfisher (6.3.0)
+  - Panda (2.0.0)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxOptional (5.0.2):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - RxSwiftExt (6.0.1):
+    - RxSwiftExt/Core (= 6.0.1)
+    - RxSwiftExt/RxCocoa (= 6.0.1)
+  - RxSwiftExt/Core (6.0.1):
+    - RxSwift (~> 6.0)
+  - RxSwiftExt/RxCocoa (6.0.1):
+    - RxCocoa (~> 6.0)
+    - RxSwiftExt/Core
+  - RxViewController (2.0.0):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - SnapKit (5.0.1)
+  - SwiftyJSON (5.0.1)
+  - Then (2.7.0)
+
+DEPENDENCIES:
+  - CWUtils
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - CWUtils
+    - Kingfisher
+    - Panda
+    - Reusable
+    - RxCocoa
+    - RxOptional
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - RxViewController
+    - SnapKit
+    - SwiftyJSON
+    - Then
+
+SPEC CHECKSUMS:
+  CWUtils: c351d53b92270daaf5757d43c45c0c1aa9b546c6
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  Panda: da2a005889c8069878fc59808196f5a0e2c887ca
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxOptional: 3664964c96b69dd20c9cf78bdfe546615e26eca8
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  RxSwiftExt: d61c4b9b06e0a448041b1c659e0f1b5c5a035afc
+  RxViewController: 56486fa0afd629a1d6b5ba077f3b8cd9dc31b5d2
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+
+PODFILE CHECKSUM: 062d4951c706e931a6e8691fd3c1f973edaf912a
+
+COCOAPODS: 1.10.1
