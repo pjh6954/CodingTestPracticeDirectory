@@ -1,6 +1,6 @@
 # Version Update History
 
-* V2.1.0 변경사항:
+* V2.1.0(2021. 06. 25) 변경사항:
   - RxSwift를 공부하기 위한 [디렉토리](/SwiftExamples/RxSwiftExaples) 추가
   - RxSwift 공부 디렉토리 하위에 곰튀김님의 강의를 듣고 따라하는 [예제 프로젝트](/SwiftExamples/RxSwiftExaples/RxSwift4HourProjects) 추가
 
