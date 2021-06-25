@@ -1,8 +1,8 @@
 # Version Update History
 
 * V2.1.0 변경사항:
-  - RxSwift를 공부하기 위한 [디렉토리](/SwiftExamples/RxSwiftExaples) 추가 // https://github.com/pjh6954/CodingTestPracticeDirectory/tree/master/SwiftExamples/RxSwiftExaples
-  - RxSwift 공부 디렉토리 하위에 곰튀김님의 강의를 듣고 따라하는 예제 프로젝트 추가
+  - RxSwift를 공부하기 위한 [디렉토리](/SwiftExamples/RxSwiftExaples) 추가
+  - RxSwift 공부 디렉토리 하위에 곰튀김님의 강의를 듣고 따라하는 [예제 프로젝트](/SwiftExamples/RxSwiftExaples/RxSwift4HourProjects) 추가
 
 * V2.0.1 변경사항:
   - Wiki 내용 업데이트(Page 추가, side 추가, 내용 수정 작업 진행 중)
