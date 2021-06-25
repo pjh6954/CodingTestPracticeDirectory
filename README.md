@@ -75,7 +75,11 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
   - [MVVM Weather](/SwiftUI/Examples/MVVMWeather): MVVM모델을 이용한 날씨 관련 예제 프로젝트
   - [People list with delete feature](/SwiftUI/Examples/PeopleListWithDeleteFeature): listview를 이용하는 예제 관련 데모 프로젝트
   - [Swift UI Buttons](/SwiftUI/Examples/SwiftUIButtons): SwiftUI 버튼들을 만들어보는 예제 관련 데모 프로젝트
-  ###### (last edited 2021.06.01)
+
+* RxSwift
+  - [Root Directory](/SwiftExamples/RxSwiftExaples): RxSwift관련 예제 및 이론 정리 Root Directory 경로
+  - [곰튀김님의 RxSwift 4시간 안에 끝내기](/SwiftExamples/RxSwiftExaples/RxSwift4HourProjects): [곰튀김](https://github.com/iamchiwon)의 강의자료를 보고 따라 만들며 공부하는 Dirctory
+  ###### (last edited 2021.06.25)
 
 
 -------------------------------------------------
@@ -96,7 +100,7 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
 
 
 ### Version Number
-[`2.0.1`](/VersionUpdateHistory)
+[`2.1.0`](/VersionUpdateHistory)
 
 Version Number의 변경방식 
 - 버전을 `주.부.수` 숫자로 하고, 각 위치를 `주`, `부`, `수`라 부른다.
