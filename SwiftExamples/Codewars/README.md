@@ -36,6 +36,37 @@ _Codewars 문제들 풀이_
 
 -------------------------------------------------
 
+## 정리하지 않은 문제
+* 문제는 풀었지만, 정리하지 않은 것들에 대한 링크 정리 - 차후 정리 쉽게 하기 위함.
+  - iOS(Swift) 
+    - [Best Travel](https://www.codewars.com/kata/55e7280b40e1c4a06d0000aa) : 5Kyu
+    - [Primes in numbers](https://www.codewars.com/kata/54d512e62a5e54c96200019e) : 5Kyu
+    - [Some Egyptian fractions](https://www.codewars.com/kata/54f8693ea58bce689100065f) : 5Kyu
+    - [Product of consecutive Fib numbers](https://www.codewars.com/kata/5541f58a944b85ce6d00006a) : 5Kyu
+    - [Linked Lists - Front Back Split](https://www.codewars.com/kata/55e1d2ba1a3229674d000037) : 5Kyu
+    - [Statistics for an Athletic Association](https://www.codewars.com/kata/55b3425df71c1201a800009c) : 6Kyu
+    - [Hidden "Cubic" numbers](https://www.codewars.com/kata/55031bba8cba40ada90011c4) : 6Kyu
+    - 
+  - Python
+    - [The Wide-Mouthed frog!](https://www.codewars.com/kata/57ec8bd8f670e9a47a000f89) : 8Kyu
+    - [Generate range of integers](https://www.codewars.com/kata/55eca815d0d20962e1000106) : 8Kyu
+    - [Filter out the geese](https://www.codewars.com/kata/57ee4a67108d3fd9eb0000e7) : 8Kyu
+    - [Enumerable Magic #20 - Cascading Subsets](https://www.codewars.com/kata/545af3d185166a3dec001190) : 8Kyu
+    - [Swap Values](https://www.codewars.com/kata/5388f0e00b24c5635e000fc6) : 8Kyu
+    - [Price of Mangoes](https://www.codewars.com/kata/57a77726bb9944d000000b06) : 8Kyu
+    - [Pre-FizzBuzz Workout #1](https://www.codewars.com/kata/569e09850a8e371ab200000b) : 8Kyu
+    - [Holiday VIII - Duty Free](https://www.codewars.com/kata/57e92e91b63b6cbac20001e5) : 8Kyu
+    - [Drink about](https://www.codewars.com/kata/56170e844da7c6f647000063) : 8Kyu
+    - [Will there be enough space?](https://www.codewars.com/kata/5875b200d520904a04000003) : 8Kyu
+    - [Thinkful - Logic Drills: Traffic light](https://www.codewars.com/kata/58649884a1659ed6cb000072) : 8Kyu
+    - [MakeUpperCase](https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7) : 8Kyu
+
+* 풀지 않은 상태 - 시작만 했고 완료 안함
+  - iOS(Swift)
+    - [Gap in Primes](https://www.codewars.com/kata/561e9c843a2ef5a40c0000a4/train/swift) : 5Kyu
+
+-------------------------------------------------
+
 ## License
 
 MIT
