@@ -12,6 +12,13 @@
 //var sixKyu = SixKyu()
 //sixKyu.areTheyTheSame()
 //sixKyu.piApproximation()
+
+
 print("TEST")
 let test = FractionalExpression()
 test.executeExamples()
+
+
+print("Random Game")
+let randomGame = RandomGame()
+randomGame.executeExamples()
