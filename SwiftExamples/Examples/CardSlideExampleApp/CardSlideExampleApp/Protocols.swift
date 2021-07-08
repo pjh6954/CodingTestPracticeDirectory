@@ -25,6 +25,7 @@ public protocol CardSliderItem {
     var description: String? { get }
 }
 
+/// <#Description#>
 public protocol CardSliderDataSource: AnyObject {
     // TODO: Infinite mode
     func activateInfinite(displayCount: Int)
@@ -36,7 +37,10 @@ public protocol CardSliderDataSource: AnyObject {
     func numberOfItems() -> Int
 }
 
+/// <#Description#>
 protocol ParallaxCardCell {
+    /// <#Description#>
+    /// - Parameter progress: <#progress description#>
     func setShadeOpacity(progress: CGFloat)
     func setZoom(progress: CGFloat)
 }

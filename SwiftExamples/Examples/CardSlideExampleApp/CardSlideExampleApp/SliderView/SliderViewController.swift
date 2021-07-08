@@ -10,10 +10,15 @@ import UIKit
 class SliderViewController : UIViewController{
     @IBOutlet weak var collectionView: UICollectionView!
     
+    /// <#Description#>
     public weak var dataSource: CardSliderDataSource!
     
+    /// <#Description#>
     let cellID = "SliderCell"
     
+    /// <#Description#>
+    /// - Parameter dataSource: <#dataSource description#>
+    /// - Returns: <#description#>
     public static func with(dataSource: CardSliderDataSource) -> SliderViewController {
         if let controller = UIStoryboard(name: "SliderViewController", bundle: nil).instantiateInitialViewController() as? SliderViewController {
             controller.dataSource = dataSource

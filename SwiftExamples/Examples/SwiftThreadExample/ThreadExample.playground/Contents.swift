@@ -24,6 +24,7 @@ DispatchQueue.global().async {
     testCode(1)
 }
 */
+
 DispatchQueue.global().sync {
     testCode(2)
 }
