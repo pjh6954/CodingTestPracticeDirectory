@@ -21,4 +21,4 @@ test.executeExamples()
 
 print("Random Game")
 let randomGame = RandomGame()
-randomGame.executeExamples()
+randomGame.executeExamples(false)
