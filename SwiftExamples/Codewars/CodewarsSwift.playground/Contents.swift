@@ -13,7 +13,7 @@
 //sixKyu.areTheyTheSame()
 //sixKyu.piApproximation()
 
-
+/*
 print("TEST")
 let test = FractionalExpression()
 test.executeExamples()
@@ -22,3 +22,9 @@ test.executeExamples()
 print("Random Game")
 let randomGame = RandomGame()
 randomGame.executeExamples(false)
+*/
+
+//let test = LeetCodeEasy()
+//test.executeExamples()
+
+_ = ProgrammersQuestions()
