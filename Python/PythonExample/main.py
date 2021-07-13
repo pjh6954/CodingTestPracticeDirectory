@@ -18,3 +18,20 @@
 
 # import codewars
 # codewars.mouth_size("test")
+
+def counting(num = int()):
+    cnt = 0
+    while True:
+        if(num % 5) == 0:
+            print(f"Check cnt : {cnt}, {num}, {num // 5}")
+            cnt = cnt + (num // 5)
+            break
+        num = num - 3
+        cnt += 1
+        if num <= 0:
+            break
+    return cnt
+
+print(f"test? {123}")
+answer = counting(21)
+print(answer)
