@@ -1,0 +1,15 @@
+platform :ios, '14.1'
+
+use_frameworks!
+
+def pods 
+    pod 'SwiftyJSON'
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'RxDataSources'
+    pod 'RxAlamofire'
+end 
+
+target 'CurrencyConverter' do
+    pods
+end

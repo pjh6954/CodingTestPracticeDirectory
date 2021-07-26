@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="khJ-Ff-hYT">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CurrencyConverter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cAL-C8-OZK">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="afe-TU-CJz" customClass="CurrencyView" customModule="CurrencyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="371"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SMe-UH-rpr">
+                                        <rect key="frame" x="0.0" y="371" width="414" height="0.0"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dck-ec-cUt">
+                                        <rect key="frame" x="0.0" y="371" width="414" height="32"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIw-YA-WFh">
+                                                <rect key="frame" x="192" y="0.0" width="30" height="32"/>
+                                                <state key="normal" title="⇅"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UbU-DD-gBT">
+                                                <rect key="frame" x="192" y="0.0" width="30" height="32"/>
+                                                <state key="normal" title="⇄"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="UbU-DD-gBT" firstAttribute="top" secondItem="dck-ec-cUt" secondAttribute="top" id="7zl-Cy-Sy9"/>
+                                            <constraint firstItem="UbU-DD-gBT" firstAttribute="centerX" secondItem="dck-ec-cUt" secondAttribute="centerX" id="D1C-KP-rhb"/>
+                                            <constraint firstItem="hIw-YA-WFh" firstAttribute="centerX" secondItem="dck-ec-cUt" secondAttribute="centerX" id="Kjs-hP-PhW"/>
+                                            <constraint firstItem="UbU-DD-gBT" firstAttribute="centerY" secondItem="dck-ec-cUt" secondAttribute="centerY" id="LSh-Ra-IGb"/>
+                                            <constraint firstItem="hIw-YA-WFh" firstAttribute="centerY" secondItem="dck-ec-cUt" secondAttribute="centerY" id="qqh-Tg-X6T"/>
+                                            <constraint firstItem="hIw-YA-WFh" firstAttribute="top" secondItem="dck-ec-cUt" secondAttribute="top" id="sD7-zG-3jE"/>
+                                            <constraint firstAttribute="height" constant="32" id="yic-kU-6aW"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="hIw-YA-WFh"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="subviews">
+                                                <include reference="hIw-YA-WFh"/>
+                                                <exclude reference="UbU-DD-gBT"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MJD-41-3aM" customClass="CurrencyView" customModule="CurrencyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="403" width="414" height="371"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hvE-38-3fm">
+                                        <rect key="frame" x="0.0" y="774" width="414" height="0.0"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="SMe-UH-rpr" firstAttribute="height" secondItem="hvE-38-3fm" secondAttribute="height" id="Kor-Rx-eMG"/>
+                                    <constraint firstItem="afe-TU-CJz" firstAttribute="height" secondItem="MJD-41-3aM" secondAttribute="height" id="mj6-gq-yn2"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cAL-C8-OZK" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="52u-Oz-Iov"/>
+                            <constraint firstItem="cAL-C8-OZK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Jdx-j0-1OG"/>
+                            <constraint firstItem="cAL-C8-OZK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LSe-IN-Um4"/>
+                            <constraint firstItem="cAL-C8-OZK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="NMY-Oz-aqC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="KiC-W5-c87">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="eIO-6I-x9G">
+                            <color key="tintColor" systemColor="systemGrayColor"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="lowerCurrencyView" destination="MJD-41-3aM" id="u5n-tT-NVm"/>
+                        <outlet property="lowerCurrencyViewContainer" destination="hvE-38-3fm" id="TnW-KU-agB"/>
+                        <outlet property="reloadBtn" destination="eIO-6I-x9G" id="f9i-hH-W2e"/>
+                        <outlet property="swapHorizontalBtn" destination="UbU-DD-gBT" id="V1K-ea-5nL"/>
+                        <outlet property="swapVerticalBtn" destination="hIw-YA-WFh" id="srS-jL-fEO"/>
+                        <outlet property="upperCurrencyView" destination="afe-TU-CJz" id="4aD-7m-VGn"/>
+                        <outlet property="upperCurrencyViewContainer" destination="SMe-UH-rpr" id="XHC-xf-JNd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="125.89285714285714"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sFh-fB-nwy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="khJ-Ff-hYT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vuU-fu-vXG">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="fI0-FY-eCa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TLW-A7-WuL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="125.89285714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
