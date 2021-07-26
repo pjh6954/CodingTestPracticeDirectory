@@ -65,7 +65,8 @@ _코딩 테스트 연습을 위한 연습 파일들을 모아둔 프로젝트_
   - [DownloadApp](/App/FileDownloader/DownloadApp): 이 앱은 특정 사이트의 데이터를 자동으로 다운로드 하게 하기 위해서 만든 앱입니다.(Swift, Storyboard) - Using Alamofire, Kingfisher
   - [Hello Neumorphism](/App/HelloNeumorphism): Neumorphism 관련 예제 앱(create by DahNyue.)
   - [VideoEditorApp](/App/VideoEditorApp/VideoEditorApp): 이 앱은 영상 편집 기능(잘라내기, Slow motion 등)을 테스트하기 위한 앱입니다.(Swift, Storyboard)
-  ###### (last edited 2021.06.01)
+  - [Concurrency Converter 예제 앱](/App/CurrencyConverter): 예제 따라서 만들어보는 앱 - RxSwift 예제이고, SwiftUI를 병행해서 사용해보기 위해 진행 중. 원본이 정상동작 안하기 때문에 하나씩 다시 건드는 중. [관련 링크](https://academy.realm.io/kr/posts/how-to-use-rxswift-with-simple-examples-ios-techtalk/)
+  ###### (last edited 2021.07.26)
   
 * SwiftUI
   - [Root Directory](/SwiftUI): SwiftUI와 관련된 Root Directory 경로
