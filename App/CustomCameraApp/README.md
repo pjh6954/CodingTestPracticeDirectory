@@ -12,3 +12,7 @@
 - imageContainer안에는 원하는 Image가 들어가있는 UIImageView가 그려진다.(image가 존재할 때)
 - Capture button을 터치하면, 사진을 캡쳐하고, 해당 이미지와 imageContainer의 이미지를 합성해서 새로운 image가 생성되어 반환된다.
 - 그 후 UIImageView가 그려지는데, 해당 뷰는 단순히 만들어진 image를 보여주는 view이다.
+
+
+### 미처리 사항
+- Take Photo를 통해 생성된 Image와 imageContainer의 view를 합쳐서 만들 때 Image의 사이즈가 맞지 않아 resize되듯이 보이는 현상이 있음.
