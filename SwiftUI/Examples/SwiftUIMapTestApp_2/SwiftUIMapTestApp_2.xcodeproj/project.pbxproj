@@ -7,31 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		72C7622B26B1341F00E57AD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7622A26B1341F00E57AD6 /* AppDelegate.swift */; };
-		72C7622D26B1341F00E57AD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7622C26B1341F00E57AD6 /* SceneDelegate.swift */; };
-		72C7622F26B1341F00E57AD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7622E26B1341F00E57AD6 /* ViewController.swift */; };
-		72C7623226B1341F00E57AD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C7623026B1341F00E57AD6 /* Main.storyboard */; };
-		72C7623426B1342100E57AD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C7623326B1342100E57AD6 /* Assets.xcassets */; };
-		72C7623726B1342100E57AD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C7623526B1342100E57AD6 /* LaunchScreen.storyboard */; };
-		72C7623F26B1372000E57AD6 /* WebViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7623E26B1372000E57AD6 /* WebViewControllerOne.swift */; };
-		72C7624126B1394800E57AD6 /* WebViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7624026B1394800E57AD6 /* WebViewControllerTwo.swift */; };
+		72AB683626AAB94500A47993 /* SwiftUIMapTestApp_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AB683526AAB94500A47993 /* SwiftUIMapTestApp_2App.swift */; };
+		72AB683826AAB94500A47993 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AB683726AAB94500A47993 /* ContentView.swift */; };
+		72AB683A26AAB94600A47993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72AB683926AAB94600A47993 /* Assets.xcassets */; };
+		72AB683D26AAB94600A47993 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72AB683C26AAB94600A47993 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		72C7622726B1341F00E57AD6 /* WKWebviewTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebviewTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		72C7622A26B1341F00E57AD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72C7622C26B1341F00E57AD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72C7622E26B1341F00E57AD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		72C7623126B1341F00E57AD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		72C7623326B1342100E57AD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		72C7623626B1342100E57AD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		72C7623826B1342100E57AD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72C7623E26B1372000E57AD6 /* WebViewControllerOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewControllerOne.swift; sourceTree = "<group>"; };
-		72C7624026B1394800E57AD6 /* WebViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewControllerTwo.swift; sourceTree = "<group>"; };
+		72AB683226AAB94500A47993 /* SwiftUIMapTestApp_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMapTestApp_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AB683526AAB94500A47993 /* SwiftUIMapTestApp_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMapTestApp_2App.swift; sourceTree = "<group>"; };
+		72AB683726AAB94500A47993 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		72AB683926AAB94600A47993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72AB683C26AAB94600A47993 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72AB683E26AAB94600A47993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		72C7622426B1341F00E57AD6 /* Frameworks */ = {
+		72AB682F26AAB94500A47993 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,73 +33,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		72C7621E26B1341F00E57AD6 = {
+		72AB682926AAB94400A47993 = {
 			isa = PBXGroup;
 			children = (
-				72C7622926B1341F00E57AD6 /* WKWebviewTestApp */,
-				72C7622826B1341F00E57AD6 /* Products */,
+				72AB683426AAB94500A47993 /* SwiftUIMapTestApp_2 */,
+				72AB683326AAB94500A47993 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		72C7622826B1341F00E57AD6 /* Products */ = {
+		72AB683326AAB94500A47993 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72C7622726B1341F00E57AD6 /* WKWebviewTestApp.app */,
+				72AB683226AAB94500A47993 /* SwiftUIMapTestApp_2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		72C7622926B1341F00E57AD6 /* WKWebviewTestApp */ = {
+		72AB683426AAB94500A47993 /* SwiftUIMapTestApp_2 */ = {
 			isa = PBXGroup;
 			children = (
-				72C7622A26B1341F00E57AD6 /* AppDelegate.swift */,
-				72C7622C26B1341F00E57AD6 /* SceneDelegate.swift */,
-				72C7622E26B1341F00E57AD6 /* ViewController.swift */,
-				72C7623E26B1372000E57AD6 /* WebViewControllerOne.swift */,
-				72C7624026B1394800E57AD6 /* WebViewControllerTwo.swift */,
-				72C7623026B1341F00E57AD6 /* Main.storyboard */,
-				72C7623326B1342100E57AD6 /* Assets.xcassets */,
-				72C7623526B1342100E57AD6 /* LaunchScreen.storyboard */,
-				72C7623826B1342100E57AD6 /* Info.plist */,
+				72AB683526AAB94500A47993 /* SwiftUIMapTestApp_2App.swift */,
+				72AB683726AAB94500A47993 /* ContentView.swift */,
+				72AB683926AAB94600A47993 /* Assets.xcassets */,
+				72AB683E26AAB94600A47993 /* Info.plist */,
+				72AB683B26AAB94600A47993 /* Preview Content */,
 			);
-			path = WKWebviewTestApp;
+			path = SwiftUIMapTestApp_2;
+			sourceTree = "<group>";
+		};
+		72AB683B26AAB94600A47993 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				72AB683C26AAB94600A47993 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		72C7622626B1341F00E57AD6 /* WKWebviewTestApp */ = {
+		72AB683126AAB94500A47993 /* SwiftUIMapTestApp_2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72C7623B26B1342100E57AD6 /* Build configuration list for PBXNativeTarget "WKWebviewTestApp" */;
+			buildConfigurationList = 72AB684126AAB94600A47993 /* Build configuration list for PBXNativeTarget "SwiftUIMapTestApp_2" */;
 			buildPhases = (
-				72C7622326B1341F00E57AD6 /* Sources */,
-				72C7622426B1341F00E57AD6 /* Frameworks */,
-				72C7622526B1341F00E57AD6 /* Resources */,
+				72AB682E26AAB94500A47993 /* Sources */,
+				72AB682F26AAB94500A47993 /* Frameworks */,
+				72AB683026AAB94500A47993 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WKWebviewTestApp;
-			productName = WKWebviewTestApp;
-			productReference = 72C7622726B1341F00E57AD6 /* WKWebviewTestApp.app */;
+			name = SwiftUIMapTestApp_2;
+			productName = SwiftUIMapTestApp_2;
+			productReference = 72AB683226AAB94500A47993 /* SwiftUIMapTestApp_2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		72C7621F26B1341F00E57AD6 /* Project object */ = {
+		72AB682A26AAB94400A47993 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					72C7622626B1341F00E57AD6 = {
+					72AB683126AAB94500A47993 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = 72C7622226B1341F00E57AD6 /* Build configuration list for PBXProject "WKWebviewTestApp" */;
+			buildConfigurationList = 72AB682D26AAB94400A47993 /* Build configuration list for PBXProject "SwiftUIMapTestApp_2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,65 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 72C7621E26B1341F00E57AD6;
-			productRefGroup = 72C7622826B1341F00E57AD6 /* Products */;
+			mainGroup = 72AB682926AAB94400A47993;
+			productRefGroup = 72AB683326AAB94500A47993 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72C7622626B1341F00E57AD6 /* WKWebviewTestApp */,
+				72AB683126AAB94500A47993 /* SwiftUIMapTestApp_2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		72C7622526B1341F00E57AD6 /* Resources */ = {
+		72AB683026AAB94500A47993 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72C7623726B1342100E57AD6 /* LaunchScreen.storyboard in Resources */,
-				72C7623426B1342100E57AD6 /* Assets.xcassets in Resources */,
-				72C7623226B1341F00E57AD6 /* Main.storyboard in Resources */,
+				72AB683D26AAB94600A47993 /* Preview Assets.xcassets in Resources */,
+				72AB683A26AAB94600A47993 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		72C7622326B1341F00E57AD6 /* Sources */ = {
+		72AB682E26AAB94500A47993 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72C7623F26B1372000E57AD6 /* WebViewControllerOne.swift in Sources */,
-				72C7624126B1394800E57AD6 /* WebViewControllerTwo.swift in Sources */,
-				72C7622F26B1341F00E57AD6 /* ViewController.swift in Sources */,
-				72C7622B26B1341F00E57AD6 /* AppDelegate.swift in Sources */,
-				72C7622D26B1341F00E57AD6 /* SceneDelegate.swift in Sources */,
+				72AB683826AAB94500A47993 /* ContentView.swift in Sources */,
+				72AB683626AAB94500A47993 /* SwiftUIMapTestApp_2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		72C7623026B1341F00E57AD6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				72C7623126B1341F00E57AD6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		72C7623526B1342100E57AD6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				72C7623626B1342100E57AD6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		72C7623926B1342100E57AD6 /* Debug */ = {
+		72AB683F26AAB94600A47993 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -224,7 +197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -234,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		72C7623A26B1342100E57AD6 /* Release */ = {
+		72AB684026AAB94600A47993 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,38 +262,44 @@
 			};
 			name = Release;
 		};
-		72C7623C26B1342100E57AD6 /* Debug */ = {
+		72AB684226AAB94600A47993 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = WKWebviewTestApp/Info.plist;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMapTestApp_2/Preview Content\"";
+				DEVELOPMENT_TEAM = STRQXD44ML;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIMapTestApp_2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.junho.develop.WKWebviewTestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.junho.develop.SwiftUIMapTestApp-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		72C7623D26B1342100E57AD6 /* Release */ = {
+		72AB684326AAB94600A47993 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = WKWebviewTestApp/Info.plist;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMapTestApp_2/Preview Content\"";
+				DEVELOPMENT_TEAM = STRQXD44ML;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIMapTestApp_2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.junho.develop.WKWebviewTestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.junho.develop.SwiftUIMapTestApp-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		72C7622226B1341F00E57AD6 /* Build configuration list for PBXProject "WKWebviewTestApp" */ = {
+		72AB682D26AAB94400A47993 /* Build configuration list for PBXProject "SwiftUIMapTestApp_2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72C7623926B1342100E57AD6 /* Debug */,
-				72C7623A26B1342100E57AD6 /* Release */,
+				72AB683F26AAB94600A47993 /* Debug */,
+				72AB684026AAB94600A47993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72C7623B26B1342100E57AD6 /* Build configuration list for PBXNativeTarget "WKWebviewTestApp" */ = {
+		72AB684126AAB94600A47993 /* Build configuration list for PBXNativeTarget "SwiftUIMapTestApp_2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72C7623C26B1342100E57AD6 /* Debug */,
-				72C7623D26B1342100E57AD6 /* Release */,
+				72AB684226AAB94600A47993 /* Debug */,
+				72AB684326AAB94600A47993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 72C7621F26B1341F00E57AD6 /* Project object */;
+	rootObject = 72AB682A26AAB94400A47993 /* Project object */;
 }
