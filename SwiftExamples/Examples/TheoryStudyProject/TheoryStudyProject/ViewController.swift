@@ -29,6 +29,15 @@ class ViewController: UIViewController {
         return view
     }()
     
+    private let stvLabel: UIStackView = {
+        let stv = UIStackView()
+        stv.translatesAutoresizingMaskIntoConstraints = false
+        stv.axis = .horizontal
+        stv.spacing = 0
+        stv.distribution = .fillProportionally
+        return stv
+    }()
+    
     // MARK: - VC Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,8 +54,9 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         print("\(#fileID)::\(#function)")
-        //self.drawLayerInBackgroundTest()
-        self.multipleThreadWithSync()
+        // self.drawLayerInBackgroundTest()
+        // self.multipleThreadWithSync()
+        self.drawingLabelContainer()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -73,7 +83,7 @@ class ViewController: UIViewController {
     private func commonInit() {
         print("\(#fileID)::\(#function)")
         // self.drawingOneView()
-        self.drawingTwoView()
+        // self.drawingTwoView()
     }
     
     
@@ -91,6 +101,7 @@ extension ViewController {
         ])
     }
     private func drawingTwoView() {
+        // uiview double display
         self.view.addSubview(self.stv)
         self.stv.distribution = .fillEqually
         NSLayoutConstraint.activate([
@@ -101,6 +112,52 @@ extension ViewController {
         ])
         self.stv.addArrangedSubview(self.testView)
         self.stv.addArrangedSubview(self.testSecondView)
+    }
+    private func drawingLabelContainer() {
+        self.view.addSubview(self.stvLabel)
+        NSLayoutConstraint.activate([
+            .init(item: stvLabel, attribute: .centerX, relatedBy: .equal, toItem: self.view, attribute: .centerX, multiplier: 1, constant: 0),
+            .init(item: stvLabel, attribute: .centerY, relatedBy: .equal, toItem: self.view, attribute: .centerY, multiplier: 1, constant: 0),
+            .init(item: stvLabel, attribute: .leading, relatedBy: .equal, toItem: self.view, attribute: .leading, multiplier: 1, constant: 0)
+        ])
+        let labelOne = UILabel()
+        labelOne.translatesAutoresizingMaskIntoConstraints = false
+        labelOne.font = .systemFont(ofSize: 30, weight: .bold)
+        labelOne.textColor = .red
+        labelOne.backgroundColor = .gray
+        
+        let labelTwo = UILabel()
+        labelTwo.translatesAutoresizingMaskIntoConstraints = false
+        labelTwo.font = .systemFont(ofSize: 30, weight: .bold)
+        labelTwo.textColor = .blue
+        labelTwo.backgroundColor = .lightGray
+        
+        // 작아지는 우선순위 테스트 시작
+        // labelOne.text = "asdl"
+        // labelTwo.text = "TWOas"
+        // labelOne.setContentHuggingPriority(.init(rawValue: 200), for: .horizontal)
+        // labelTwo.setContentHuggingPriority(.init(rawValue: 1000), for: .horizontal)
+        
+        // labelOne.setContentHuggingPriority(.init(rawValue: 200), for: .horizontal)
+        // labelTwo.setContentHuggingPriority(.init(rawValue: 200), for: .horizontal)
+        
+        // labelOne.setContentHuggingPriority(.init(rawValue: 1000), for: .horizontal)
+        // labelTwo.setContentHuggingPriority(.init(rawValue: 200), for: .horizontal)
+        
+        // 커지는 우선순위 테스트 시작
+        labelOne.text = "testtest-red-bigger?test"
+        labelTwo.text = "BLUEE TESTTEST BIGGER TEST"
+        // labelOne.setContentCompressionResistancePriority(.init(200), for: .horizontal)
+        // labelTwo.setContentCompressionResistancePriority(.init(1000), for: .horizontal)
+        
+        // labelOne.setContentCompressionResistancePriority(.init(200), for: .horizontal)
+        // labelTwo.setContentCompressionResistancePriority(.init(200), for: .horizontal)
+        
+        labelOne.setContentCompressionResistancePriority(.init(1000), for: .horizontal)
+        labelTwo.setContentCompressionResistancePriority(.init(200), for: .horizontal)
+        
+        self.stvLabel.addArrangedSubview(labelOne)
+        self.stvLabel.addArrangedSubview(labelTwo)
     }
 }
 
