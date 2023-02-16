@@ -9,11 +9,15 @@ public class RandomGame : DefaultExecuteClass {
         self.executeExamples(false)
     }
     public func executeExamples(_ isAllUnique: Bool = false) {
-        /*
         print("Random SevenTwenty Game")
         sevenTwenty().forEach { str in
             print("\(str)")
         }
+        self.printLine()
+        print("Power ball game")
+        powerBall(isAllUnique).forEach({ str in
+            print("\(str)")
+        })
         self.printLine()
         print("Random Lotto Game")
         lotto(isAllUnique) { value in
@@ -21,12 +25,6 @@ public class RandomGame : DefaultExecuteClass {
                 print("\(str)")
             }
         }
-        */
-        self.printLine()
-        print("Power ball game")
-        powerBall(isAllUnique).forEach({ str in
-            print("\(str)")
-        })
     }
     
     private func powerBall(_ isAllUnique: Bool) -> [String] {
@@ -54,6 +52,13 @@ public class RandomGame : DefaultExecuteClass {
         }
         return strArr
     }
+    /*
+    1 16 17 24 27 6
+    12 15 16 17 19 8
+    8 12 14 17 24 8
+    3 6 13 21 24 3
+    2 24 26 27 28 2
+    */
     
     // Random number get
     private func sevenTwenty() -> [String] {
@@ -68,7 +73,13 @@ public class RandomGame : DefaultExecuteClass {
         
         return arr
     }
-    
+    /*
+     1조 580383
+     2조 014327
+     3조 656439
+     4조 021892
+     5조 192094
+    */
     private func lotto(_ isAllUnique: Bool, completion: @escaping(_ value: [String]) -> Void){
         var arrStr : [String] = []
         DispatchQueue.global().async {
@@ -109,6 +120,20 @@ public class RandomGame : DefaultExecuteClass {
             }
         }
     }
+    /*
+    4 14 16 23 30 42
+    1 8 11 30 36 42
+    7 13 28 43 44 45
+    5 10 18 21 24 30
+    3 13 23 32 39 41
+     
+     5 8 18 22 23 35
+     3 5 11 17 23 39
+     5 8 11 22 31 33
+     3 18 21 23 37 40
+     6 13 24 28 29 37
+
+    */
 }
 /*
  12 19 27 28 14 8
